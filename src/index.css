@@ -1,0 +1,53 @@
+* {
+  font-family: Roobert, sans-serif;
+}
+.body {
+  margin: 0;
+}
+:root {
+  --secondary-theme-color: rgba(255, 255, 255, 0.5);
+  --background-theme: #000;
+}
+
+.svg-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 2000px;
+  margin: -8rem auto;
+  
+}
+.svg{
+  width: 100%;
+  opacity: 0.5;
+  transform: scaleY(0.2);
+}
+.svg--mod{
+  margin: 6rem auto;
+  
+}
+
+@media(min-width: 480px){
+  .svg-container{
+      margin: -3rem auto;
+      
+  }
+
+  .svg--mod{
+      margin-top: 1rem;
+      
+  }
+}
+
+@media(min-width: 990px){
+  .svg-container{
+      margin-bottom: -8rem;
+      margin-top: -7rem;
+      
+  }
+
+  .svg--mod{
+      margin-top: -1rem;
+      
+  }
+}

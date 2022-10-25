@@ -1,0 +1,111 @@
+
+  .section-standard__container {
+    display: flex;
+    max-width: 1024px;
+    min-height: 230px;
+    text-align: center;
+    padding: 2.5rem 2rem;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://assets-global.website-files.com/613a0c11c446a1558ce5db7e/613a0c11c446a1319ce5dc76_Call%20to%20action.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .section-standard__container-title {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    position: relative;
+  }
+  .section-standard__container-title-input-button {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 60%;
+    height: 7.5rem;
+    margin: auto;
+  }
+  .section-standard__container-title-input {
+    text-align: center;
+    height: 100%;
+    font-size: 1rem;
+    border: none;
+  }
+  .section-standard__container-title-button {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 100%;
+    font-size: 1rem;
+  }
+  .section-standard__container-title-button:focus {
+    background-color: #30e87a;
+  }
+  .section-standard__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .section-standard__title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  @media (min-width: 480px) {
+    
+  
+    .section-standard {
+      padding: 0 2rem;
+    }
+    .section-standard__container {
+      max-width: 720px;
+      max-height: 265px;
+    }
+    .section-standard__container-title-input-button {
+      display: flex;
+      flex-direction: row;
+      max-width: 100%;
+      height: 3rem;
+    }
+    .section-standard__container-title-input {
+      padding-right: 60px;
+    }
+    .section-standard__container-title-button {
+      padding: 0 1.5rem;
+    }
+    .section-standard__title {
+      font-size: 2rem;
+    }
+
+  }
+  @media (min-width: 990px) {
+    
+    .section-standard__container {
+      max-width: 1200px;
+      min-height: 600px;
+    }
+    .section-standard__container-title {
+      max-width: 600px;
+    }
+    .section-standard__container-title-input-button {
+      display: flex;
+      flex-direction: row;
+      max-width: 100%;
+      height: 3rem;
+    }
+    .section-standard__container-title-input {
+      padding-right: 170px;
+    }
+    .section-standard__container-title-button {
+      padding: 0 1.5rem;
+    }
+    .section-standard__title {
+      font-size: 3rem;
+      font-weight: 700;
+      margin: 0;
+    }
+
+  }
